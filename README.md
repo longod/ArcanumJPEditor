@@ -1,0 +1,5 @@
+# ArcanumJPEditor
+
+
+## License
+MIT License
