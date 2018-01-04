@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+<Format xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TestFormat>
+    <Pair>
+      <Key>$$</Key>
+      <Value>PC と仲間の所持金が #1 gold ?1{より多い,,より少ない}。</Value>
+    </Pair>
+    <Pair>
+      <Key>al</Key>
+      <Value>PC の Alignment が #1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ar</Key>
+      <Value>PC はエリア %1 を?1{分かっている,分かっている,分かっていない}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ch</Key>
+      <Value>PC の Charisma が #1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>fo</Key>
+      <Value>NPC が PC の!1{仲間ではない,仲間である}。</Value>
+    </Pair>
+    <Pair>
+      <Key>gf</Key>
+      <Value>Global Flag #1 が!2{立っていない,立っている}。</Value>
+    </Pair>
+    <Pair>
+      <Key>gv</Key>
+      <Value>Global Variable #1 が #2 である。</Value>
+    </Pair>
+    <Pair>
+      <Key>ha</Key>
+      <Value>PC の Haggle が #1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ia</Key>
+      <Value>PC がエリア %1 に?1{いる,いる,いない}。</Value>
+    </Pair>
+    <Pair>
+      <Key>in</Key>
+      <Value>?1{PC または仲間,PC または仲間,NPC}がアイテム %1 を持っている。</Value>
+    </Pair>
+    <Pair>
+      <Key>lc</Key>
+      <Value>Local Counter #1 が #2 である。</Value>
+    </Pair>
+    <Pair>
+      <Key>le</Key>
+      <Value>PC の Level が #1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>lf</Key>
+      <Value>Local Flag #1 が!2{立っていない,立っている}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ma</Key>
+      <Value>PC の Magical Aptitude が #1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>me</Key>
+      <Value>以前に NPC が PC に !1{会っていない,会っている}。</Value>
+    </Pair>
+    <Pair>
+      <Key>na</Key>
+      <Value>PC の Alignment が -#1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ni</Key>
+      <Value>?1{PC または仲間,PC または仲間,NPC} がアイテム %1 を持っていない。</Value>
+    </Pair>
+    <Pair>
+      <Key>pa</Key>
+      <Value>PC のパーティに仲間 %1 が ?1{加わっている,加わっている,加わっていない}。</Value>
+    </Pair>
+    <Pair>
+      <Key>pe</Key>
+      <Value>PC の Perception が #1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>pf</Key>
+      <Value>PC Flag #1 が !2{立っていない,立っている}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ps</Key>
+      <Value>PC の Persuasion が #1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>pv</Key>
+      <Value>PC Variable #1 が #2 である。</Value>
+    </Pair>
+    <Pair>
+      <Key>qa</Key>
+      <Value>クエスト #1 の状態が %2 以上進展している。</Value>
+    </Pair>
+    <Pair>
+      <Key>qb</Key>
+      <Value>クエスト #1 の状態が %2 より進展していない。</Value>
+    </Pair>
+    <Pair>
+      <Key>qu</Key>
+      <Value>クエスト #1 の状態が %2 である。</Value>
+    </Pair>
+    <Pair>
+      <Key>ra</Key>
+      <Value>PC の Race が %1 ?1{である,である,ではない}。</Value>
+    </Pair>
+    <Pair>
+      <Key>re</Key>
+      <Value>NPC の Reaction が #1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>rp</Key>
+      <Value>PC が Reputation #1 を?1{得ている,得ている,得ていない}。</Value>
+    </Pair>
+    <Pair>
+      <Key>rq</Key>
+      <Value>Rumor #1 が?1{鎮まっている,鎮まっている,鎮まっていない}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ru</Key>
+      <Value>PC のログに Rumor #1 が ?1{記録されている,記録されている,記録されていない}。</Value>
+    </Pair>
+    <Pair>
+      <Key>sc</Key>
+      <Value>PC は College %1 の Spell を #2 ?2{以上,以上,以下}知っている。</Value>
+    </Pair>
+    <Pair>
+      <Key>sk</Key>
+      <Value>PC の Skill %1 が #2 ?2{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ss</Key>
+      <Value>現在の Story State が #1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ta</Key>
+      <Value>PC の Tech Aptitude が #1 ?1{以上,以上,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>tr</Key>
+      <Value>PC の Skill %1 の Rank が %2 ?2{以上,,以下}。</Value>
+    </Pair>
+    <Pair>
+      <Key>wa</Key>
+      <Value>NPC は!1{待機していない,待機している}。</Value>
+    </Pair>
+    <Pair>
+      <Key>wt</Key>
+      <Value>NPC の待機することができる時間が!1{過ぎていない,過ぎている}。</Value>
+    </Pair>
+  </TestFormat>
+  <ResultFormat>
+    <Pair>
+      <Key>$$</Key>
+      <Value>?1{PC へ,PC へ,PC と仲間から} #1 gold ?1{加える,加える,減らす}。</Value>
+    </Pair>
+    <Pair>
+      <Key>al</Key>
+      <Value>PC の Alignment に #1 ?1{加える,をセットする,減らす,以上にしない,以下にしない}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ce</Key>
+      <Value>ダイアログを閉じ、NPC の Character Editor を passive mode で開く。</Value>
+    </Pair>
+    <Pair>
+      <Key>co</Key>
+      <Value>ダイアログを閉じ、NPC との戦闘を開始する。</Value>
+    </Pair>
+    <Pair>
+      <Key>et</Key>
+      <Value>PC が Skill %1 の Expert Training を開始できるのならば、Line #2 へと続く。そうでないのならば Response Line に続く。</Value>
+    </Pair>
+    <Pair>
+      <Key>fl</Key>
+      <Value>ダイアログを閉じ、 Float Line #1 を NPC 頭上に出す。</Value>
+    </Pair>
+    <Pair>
+      <Key>fp</Key>
+      <Value>PC に Fate Point を 1 与える。</Value>
+    </Pair>
+    <Pair>
+      <Key>gf</Key>
+      <Value>Global Flag #1 を !2{降ろす,立てる}。</Value>
+    </Pair>
+    <Pair>
+      <Key>gv</Key>
+      <Value>Global Variable #1 を #2 にする。</Value>
+    </Pair>
+    <Pair>
+      <Key>ii</Key>
+      <Value>Inventory UI を identify mode で開始する。</Value>
+    </Pair>
+    <Pair>
+      <Key>in</Key>
+      <Value>?1{PC または仲間から NPC へ,PC または仲間から NPC へ,NPC から PC へ}アイテム %1 を渡す。</Value>
+    </Pair>
+    <Pair>
+      <Key>jo</Key>
+      <Value>Charisma による人数制限チェックを!1{して,しないで} NPC をパーティに加える。出来たならば Line #2 へと続く。出来なかったならばResponse Line に続く。</Value>
+    </Pair>
+    <Pair>
+      <Key>lc</Key>
+      <Value>Local Counter #1 を #2 にする。</Value>
+    </Pair>
+    <Pair>
+      <Key>lf</Key>
+      <Value>Local Flag #1 を !2{降ろす,立てる}。</Value>
+    </Pair>
+    <Pair>
+      <Key>lv</Key>
+      <Value>NPC がパーティから離脱する。</Value>
+    </Pair>
+    <Pair>
+      <Key>ma</Key>
+      <Value>PC の Magical Aptitude に #1 ?1{加える,をセットする,減らす}。</Value>
+    </Pair>
+    <Pair>
+      <Key>mm</Key>
+      <Value>PC の地図にエリア %1 の印をつける。</Value>
+    </Pair>
+    <Pair>
+      <Key>nk</Key>
+      <Value>NPC を死なせる。</Value>
+    </Pair>
+    <Pair>
+      <Key>np</Key>
+      <Value>優先度の!2{ない,高い}新聞 #1 を与える。</Value>
+    </Pair>
+    <Pair>
+      <Key>or</Key>
+      <Value>NPC の origin を #1 にする。</Value>
+    </Pair>
+    <Pair>
+      <Key>pf</Key>
+      <Value>PC Flag #1 を !2{降ろす,立てる}。</Value>
+    </Pair>
+    <Pair>
+      <Key>pv</Key>
+      <Value>PC Variable #1 を #2 にセットする。</Value>
+    </Pair>
+    <Pair>
+      <Key>qu</Key>
+      <Value>クエスト #1 の状態を %2 にする。</Value>
+    </Pair>
+    <Pair>
+      <Key>re</Key>
+      <Value>NPC の Reaction に #1 ?1{加える,をセット,減らす,以上にしない,以下にしない}。</Value>
+    </Pair>
+    <Pair>
+      <Key>ri</Key>
+      <Value>Inventory UI を repair mode で開く。</Value>
+    </Pair>
+    <Pair>
+      <Key>rp</Key>
+      <Value>PC へ Reputation #1 を ?1{与える,与える,取り除く}。</Value>
+    </Pair>
+    <Pair>
+      <Key>rq</Key>
+      <Value>Rumor #1 を鎮める。</Value>
+    </Pair>
+    <Pair>
+      <Key>ru</Key>
+      <Value>Rumor #1 を PCのログに追加する。</Value>
+    </Pair>
+    <Pair>
+      <Key>sc</Key>
+      <Value>NPC を密集させる。</Value>
+    </Pair>
+    <Pair>
+      <Key>so</Key>
+      <Value>NPC を散開させる。</Value>
+    </Pair>
+    <Pair>
+      <Key>ss</Key>
+      <Value>現在の Story State が #1 より小さい場合 #1 にする。</Value>
+    </Pair>
+    <Pair>
+      <Key>su</Key>
+      <Value>Schematic UI を開く。</Value>
+    </Pair>
+    <Pair>
+      <Key>ta</Key>
+      <Value>PC の Tech Aptitude に #1 ?1{加える,をセットする,減らす}。</Value>
+    </Pair>
+    <Pair>
+      <Key>uw</Key>
+      <Value>Charisma による人数制限チェックを!1{して,しないで} 、NPC の待機状態を解いてパーティに再加入させる。出来たならば Line #2 へと続く。出来なかったならば Response Line に続く。</Value>
+    </Pair>
+    <Pair>
+      <Key>tr</Key>
+      <Value>Skill %1 のランクを %2 にする。</Value>
+    </Pair>
+    <Pair>
+      <Key>wa</Key>
+      <Value>NPC を待機させる。</Value>
+    </Pair>
+    <Pair>
+      <Key>xp</Key>
+      <Value>PC はクエストによって経験値 %1 を獲得する。</Value>
+    </Pair>
+  </ResultFormat>
+  <DialogFormat>
+    <Pair>
+      <Key>0</Key>
+      <Value>この返答はPCがFemaleの場合のみ表示される。</Value>
+    </Pair>
+    <Pair>
+      <Key>1</Key>
+      <Value>この返答はPCがMaleの場合のみ表示される。</Value>
+    </Pair>
+    <Pair>
+      <Key>A</Key>
+      <Value>Appreciate&#xD;&#xA;
+感謝の言葉を返す。</Value>
+    </Pair>
+    <Pair>
+      <Key>B</Key>
+      <Value>Bartering/Gambling&#xD;&#xA;
+取引画面またはギャンブル画面を出す。&#xD;&#xA;
+取引はNPCが望んでいなくとも行うことが出来る。NPCが取引を望んでいた場合、ギャンブルも行うことが出来る。</Value>
+    </Pair>
+    <Pair>
+      <Key>C</Key>
+      <Value>Check story state&#xD;&#xA;
+現在の story state に則した質問を行う。&#xD;&#xA;
+NPCはその story state と race に対応した返答を行う。ダイアログは response line へと続く。</Value>
+    </Pair>
+    <Pair>
+      <Key>D</Key>
+      <Value>Directions&#xD;&#xA;
+{D: $,number list}&#xD;&#xA;
+道を尋ねる。&#xD;&#xA;
+number listからPCが知らない場所のリストを表示する。PCがすべての場所を知っていた場合、このラインは表示されない。&#xD;&#xA;
+$ が 0 でない場合、NPCは道順を教える前に金銭を要求する。</Value>
+    </Pair>
+    <Pair>
+      <Key>E</Key>
+      <Value>Exit&#xD;&#xA;
+別れの言葉を返す。</Value>
+    </Pair>
+    <Pair>
+      <Key>F</Key>
+      <Value>Forget it&#xD;&#xA;
+「忘れてくれ」、「気にするな」といった取り消しの返答をする。</Value>
+    </Pair>
+    <Pair>
+      <Key>G</Key>
+      <Value>Greeting&#xD;&#xA;
+{G:&lt;params&gt;}&#xD;&#xA;
+params の評価に基づいた挨拶をする。params は以下の形式によって記述される。&#xD;&#xA;
+&#xD;&#xA;
+	N fl M		N が真の場合、float line M を表示し会話を終了する&#xD;&#xA;
+	N 0		N についての評価を行わない&#xD;&#xA;
+	N M		N が真の場合、dialog line M に移動する&#xD;&#xA;
+&#xD;&#xA;
+Test N は、以下のように定義されている：&#xD;&#xA;
+&#xD;&#xA;
+Test 0: 話者が死んでいるかどうか調べる。&#xD;&#xA;
+&#xD;&#xA;
+Test 1: 話者に同伴者がいるかどうか調べる。 summoned monsters, animated dead, illusionary monster&#xD;&#xA;
+&#xD;&#xA;
+以下の順序で、話者にかかっている spell を調べる。&#xD;&#xA;
+	Test 2: Invisibility&#xD;&#xA;
+	Test 3: Body of Air, Body of Stone, Body of Fire, Body of Water&#xD;&#xA;
+	Test 4: Polymorph&#xD;&#xA;
+	Test 5: Mirror Image&#xD;&#xA;
+	Test 6: Shrink&#xD;&#xA;
+&#xD;&#xA;
+以下は、話者の装備状態を調べる。&#xD;&#xA;
+	Test 7: Underwear&#xD;&#xA;
+	Test 8: Barbarian&#xD;&#xA;
+&#xD;&#xA;
+Test 9: reaction値に応じた返答をする。&#xD;&#xA;
+</Value>
+    </Pair>
+    <Pair>
+      <Key>H</Key>
+      <Value>Healing&#xD;&#xA;
+治療を求める。&#xD;&#xA;
+NPCは適切な skill または spell を使用する。</Value>
+    </Pair>
+    <Pair>
+      <Key>I</Key>
+      <Value>Insult&#xD;&#xA;
+PCの場合、NPCを侮辱する。NPCを十分に怒らせた場合、NPCはダイアログを終了し、PCの race に対応した侮辱をする。&#xD;&#xA;
+NPCの場合、PCの race に対応した侮辱をする。</Value>
+    </Pair>
+    <Pair>
+      <Key>J</Key>
+      <Value>empty</Value>
+    </Pair>
+    <Pair>
+      <Key>K</Key>
+      <Value>asK questions&#xD;&#xA;
+質問してもよいかどうか尋ねる。</Value>
+    </Pair>
+    <Pair>
+      <Key>L</Key>
+      <Value>Load WorldMap&#xD;&#xA;
+ダイアログを閉じ、 WorldMap を開く。</Value>
+    </Pair>
+    <Pair>
+      <Key>M</Key>
+      <Value>Money&#xD;&#xA;
+{M: $,number} for the NPC.&#xD;&#xA;
+「お金分けてくれない？」といった金銭を $ 要求する。PCが支払った場合、number に続き、そうでない場合は Responce Line に続く。&#xD;&#xA;
+支払った場合は、rumor や quest をもたらす場合がある。</Value>
+    </Pair>
+    <Pair>
+      <Key>N</Key>
+      <Value>No&#xD;&#xA;
+否定的な返答をする。</Value>
+    </Pair>
+    <Pair>
+      <Key>O</Key>
+      <Value>empty</Value>
+    </Pair>
+    <Pair>
+      <Key>P</Key>
+      <Value>Paper&#xD;&#xA;
+今日の新聞を購入するために問いかける。可能ならば過去の新聞も購入できる。</Value>
+    </Pair>
+    <Pair>
+      <Key>Q</Key>
+      <Value>Quests&#xD;&#xA;
+{Q: number}&#xD;&#xA;
+number の Quest の進行状況に対応した台詞を言う。</Value>
+    </Pair>
+    <Pair>
+      <Key>R</Key>
+      <Value>Rumors&#xD;&#xA;
+{R: $,number list} for the PC and NPC.&#xD;&#xA;
+PCの場合、NPC class に応じた rumor を聞き出す。&#xD;&#xA;
+NPCの場合、$ の金銭を要求し、number list のうちの流れている rumor について一つ話す。&#xD;&#xA;
+rumor はNPCの social calss によって、同じ rumor でも異なった語られ方をする。</Value>
+    </Pair>
+    <Pair>
+      <Key>S</Key>
+      <Value>Sorry&#xD;&#xA;
+謝罪の返答をする。</Value>
+    </Pair>
+    <Pair>
+      <Key>T</Key>
+      <Value>Training&#xD;&#xA;
+{T: number list} for the PC.&#xD;&#xA;
+「訓練お願いできるかな？」や「初歩的な訓練をお願いしたいのだが。」といった問いかけをする。&#xD;&#xA;
+NPCは可能な旨を述べ、number list の skill を提示し、選択した skill に対しての訓練を行う。</Value>
+    </Pair>
+    <Pair>
+      <Key>U</Key>
+      <Value>Use skill&#xD;&#xA;
+{U: number} for the PC.&#xD;&#xA;
+number の skill を使うように頼む。&#xD;&#xA;
+NPCがPCの follower 出ない場合は、skill の rank と mastery に応じた金銭を要求する。</Value>
+    </Pair>
+    <Pair>
+      <Key>V</Key>
+      <Value>empty</Value>
+    </Pair>
+    <Pair>
+      <Key>W</Key>
+      <Value>Who are you?&#xD;&#xA;
+誰なのか尋ねる。</Value>
+    </Pair>
+    <Pair>
+      <Key>X</Key>
+      <Value>X Marks the Spot&#xD;&#xA;
+{X: $,number list}&#xD;&#xA;
+PCの地図に number list の場所を記してもらうように尋ねる。PCがすべての場所を知っていた場合、このラインは表示されない。&#xD;&#xA;
+$ が 0 でない場合、NPCは道順を教える前に金銭を要求する。</Value>
+    </Pair>
+    <Pair>
+      <Key>Y</Key>
+      <Value>Yes&#xD;&#xA;
+肯定的な返答をする。</Value>
+    </Pair>
+    <Pair>
+      <Key>Z</Key>
+      <Value>Zap spell&#xD;&#xA;
+{Z: number}&#xD;&#xA;
+number の spell を使うように頼む。&#xD;&#xA;
+NPCがPCの follower 出ない場合は、spell に応じた金銭を要求する。</Value>
+    </Pair>
+  </DialogFormat>
+</Format>
