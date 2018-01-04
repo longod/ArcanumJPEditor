@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ProgressFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ignore>
+    <string>Arcanum\dlg\01004blackroottest.dlg</string>
+    <string>Arcanum\dlg\01099PrestonRadcliffe.dlg</string>
+    <string>Arcanum\dlg\01150Secret Door Tomb Float.dlg</string>
+    <string>Arcanum\dlg\01396Shrouded Hills Villager.dlg</string>
+    <string>Arcanum\dlg\01711Room Number Examine.dlg</string>
+    <string>Arcanum\dlg\03031Pelojian Pool Examine.dlg</string>
+    <string>Arcanum\dlg\03032Caladon HS Prison Tile.dlg</string>
+    <string>Arcanum\dlg\03042Blue Stone EXA.dlg</string>
+    <string>Arcanum\dlg\03043Red Stone EXA.dlg</string>
+    <string>Arcanum\dlg\03044Green Stone EXA.dlg</string>
+    <string>Arcanum\dlg\03045Yellow Stone EXA.dlg</string>
+    <string>Arcanum\dlg\03053Fanboys DO NOT TRANSLATE.dlg</string>
+    <string>Arcanum\mes\description.mes</string>
+    <string>Arcanum\mes\gamelevelname.mes</string>
+    <string>Arcanum\mes\MultiPlayer.mes</string>
+    <string>Arcanum\mes\text filter sleep.mes</string>
+    <string>Arcanum\modules\Arcanum\mes\gamedesc.mes</string>
+  </Ignore>
+  <Pending>
+    <string>Arcanum\mes\OptionsCombatMode.mes</string>
+    <string>Arcanum\mes\OptionsDifficulty.mes</string>
+    <string>Arcanum\mes\OptionsFloats.mes</string>
+    <string>Arcanum\mes\OptionsOffOn.mes</string>
+    <string>Arcanum\mes\options ui.mes</string>
+  </Pending>
+</ProgressFile>
